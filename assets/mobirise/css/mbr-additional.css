@@ -1385,3 +1385,46 @@ body {
 .cid-riyAkRHDo0 {
   background-image: url("../../../assets/images/birthday-celebrations-with-overlay-1600x1067.jpg");
 }
+.cid-riyLo2fshM {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  background-color: #f9f9f9;
+}
+.cid-riyLo2fshM .card {
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+.cid-riyLo2fshM .card .card-header {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0;
+}
+.cid-riyLo2fshM .card .card-header a.panel-title {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  text-decoration: none !important;
+  margin-top: -1px;
+  line-height: normal;
+}
+.cid-riyLo2fshM .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+.cid-riyLo2fshM .card .card-header a.panel-title h4 {
+  padding: 1.3rem 2rem;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 0;
+}
+.cid-riyLo2fshM .card .card-header a.panel-title h4 .sign {
+  padding-right: 1rem;
+}
+.cid-riyLo2fshM .card .panel-body {
+  color: #767676;
+}
+.cid-riyLJlGR2o {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #82786e;
+}
