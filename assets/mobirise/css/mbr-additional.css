@@ -1382,6 +1382,20 @@ body {
     flex: auto!important;
   }
 }
+.cid-rlnwsmn4YI {
+  background-image: url("../../../assets/images/party-signs-hero-blur-1600x1067.jpg");
+}
+.cid-rlnwsmn4YI .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.cid-rlnwsmn4YI .media-container-column {
+  background-color: #867a7d;
+}
+@media (max-width: 767px) {
+  .cid-rlnwsmn4YI .media-container-column {
+    padding: 1rem !important;
+  }
+}
 .cid-riyVJL29xC .navbar {
   background: #ffffff;
   transition: none;
@@ -1773,9 +1787,6 @@ body {
 .cid-riyVJL29xC .nav-link:hover,
 .cid-riyVJL29xC .dropdown-item:hover {
   color: #767676 !important;
-}
-.cid-riyAkRHDo0 {
-  background-image: url("../../../assets/images/party-signs-hero-blur-1600x1067.jpg");
 }
 .cid-riyLo2fshM {
   padding-top: 60px;
