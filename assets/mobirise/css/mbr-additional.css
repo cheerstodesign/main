@@ -1827,19 +1827,38 @@ body {
 .cid-riyVJL29xC .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rWUxmNT6RR {
-  padding-top: 105px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/websites-1980x1114.jpg");
+.cid-rWVSjZctot {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #c6ceea;
+  background: linear-gradient(45deg, #c6ceea, #ffffff);
 }
-.cid-rWUxmNT6RR H2 {
+.cid-rWVSjZctot .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-rWVSjZctot .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rWVSjZctot .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rWVSjZctot .mbr-text {
+    text-align: center;
+  }
+}
+.cid-rWVSjZctot H1 {
   color: #191654;
 }
-.cid-rWUxmNT6RR H3 {
-  color: #191654;
-}
-.cid-rWUxmNT6RR .mbr-text,
-.cid-rWUxmNT6RR .mbr-section-btn {
+.cid-rWVSjZctot .mbr-text,
+.cid-rWVSjZctot .mbr-section-btn {
   color: #191654;
 }
 .cid-rWUD6uv6og {
