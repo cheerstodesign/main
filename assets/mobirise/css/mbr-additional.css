@@ -2365,17 +2365,17 @@ body {
 }
 .cid-rt1xfdEuwM .nav-tabs .nav-link:hover {
   cursor: pointer;
-  background-color: #191654;
+  background-color: #f7ed4a;
 }
 .cid-rt1xfdEuwM .nav-tabs .nav-link.active {
   font-weight: 500;
-  color: #ffffff;
+  color: #000000;
   font-style: normal;
-  background-color: #191654;
-  border-color: #191654;
+  background-color: #f7ed4a;
+  border-color: #f7ed4a;
 }
 .cid-rt1xfdEuwM .nav-tabs .nav-link.active:hover {
-  background-color: #191654;
+  background-color: #f7ed4a;
 }
 .cid-rt1xfdEuwM p {
   color: #ffffff;
