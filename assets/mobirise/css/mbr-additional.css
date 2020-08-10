@@ -1817,8 +1817,7 @@ body {
   letter-spacing: .2rem;
 }
 .cid-s7ileheLan .media-container-column {
-  background:#ffffff;
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-color: #eee7f9;
 }
 @media (max-width: 767px) {
   .cid-s7ileheLan .media-container-column {
