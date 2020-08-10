@@ -1813,23 +1813,26 @@ body {
 .cid-riyVJL29xC .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-s7ileheLan .mbr-section-subtitle {
+.cid-s7irRVPvsv {
+  background-image: url("../../../assets/images/creativity-1980x966.jpg");
+}
+.cid-s7irRVPvsv .mbr-section-subtitle {
   letter-spacing: .2rem;
 }
-.cid-s7ileheLan .media-container-column {
-  background-color: #eee7f9;
+.cid-s7irRVPvsv .media-container-column {
+  background-color: #191654;
 }
 @media (max-width: 767px) {
-  .cid-s7ileheLan .media-container-column {
+  .cid-s7irRVPvsv .media-container-column {
     padding: 1rem !important;
   }
 }
-.cid-s7ileheLan H1 {
-  color: #191654;
+.cid-s7irRVPvsv H1 {
+  color: #ffffff;
 }
-.cid-s7ileheLan .mbr-text,
-.cid-s7ileheLan .mbr-section-btn {
-  color: #191654;
+.cid-s7irRVPvsv .mbr-text,
+.cid-s7irRVPvsv .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-rWVSjZctot {
   padding-top: 120px;
