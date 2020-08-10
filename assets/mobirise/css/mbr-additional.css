@@ -1413,19 +1413,12 @@ body {
   background: #ff3366 !important;
   box-shadow: none !important;
 }
-.cid-rlnwsmn4YI {
-  background-image: url("../../../assets/images/creativity-1980x966.jpg");
+.cid-s7ig6UBvUC H1 {
+  text-align: left;
 }
-.cid-rlnwsmn4YI .mbr-section-subtitle {
-  letter-spacing: .2rem;
-}
-.cid-rlnwsmn4YI .media-container-column {
-  background-color: #191654;
-}
-@media (max-width: 767px) {
-  .cid-rlnwsmn4YI .media-container-column {
-    padding: 1rem !important;
-  }
+.cid-s7ig6UBvUC .mbr-text,
+.cid-s7ig6UBvUC .mbr-section-btn {
+  text-align: left;
 }
 .cid-riyVJL29xC .navbar {
   background: #efefef;
