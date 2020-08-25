@@ -3190,8 +3190,29 @@ body {
   color: #191654;
   text-align: left;
 }
+.cid-s8HtwYtsPu {
+  background: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cid-s8HtwYtsPu .image-block {
+  margin: auto;
+}
+.cid-s8HtwYtsPu figcaption {
+  position: relative;
+}
+.cid-s8HtwYtsPu figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-s8HtwYtsPu .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rWUQt6YxZJ {
-  padding-top: 45px;
+  padding-top: 0px;
   padding-bottom: 30px;
   background: #ffffff;
 }
