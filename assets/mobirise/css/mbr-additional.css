@@ -1813,26 +1813,16 @@ body {
 .cid-riyVJL29xC .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-s7irRVPvsv {
-  background-image: url("../../../assets/images/creativity-1800x800.jpg");
+.cid-s8IznCClyP {
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
-.cid-s7irRVPvsv .mbr-section-subtitle {
-  letter-spacing: .2rem;
+.cid-s8IznCClyP H1 {
+  text-align: left;
 }
-.cid-s7irRVPvsv .media-container-column {
-  background-color: #191654;
-}
-@media (max-width: 767px) {
-  .cid-s7irRVPvsv .media-container-column {
-    padding: 1rem !important;
-  }
-}
-.cid-s7irRVPvsv H1 {
-  color: #ffffff;
-}
-.cid-s7irRVPvsv .mbr-text,
-.cid-s7irRVPvsv .mbr-section-btn {
-  color: #ffffff;
+.cid-s8IznCClyP .mbr-text,
+.cid-s8IznCClyP .mbr-section-btn {
+  text-align: left;
 }
 .cid-rWVSjZctot {
   padding-top: 120px;
