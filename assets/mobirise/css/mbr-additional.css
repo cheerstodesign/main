@@ -1816,14 +1816,16 @@ body {
 .cid-s8IznCClyP {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/wireframe.gif");
+  background-image: url("../../../assets/images/cheers-hero.gif");
 }
 .cid-s8IznCClyP H1 {
   text-align: left;
+  color: #ffffff;
 }
 .cid-s8IznCClyP .mbr-text,
 .cid-s8IznCClyP .mbr-section-btn {
   text-align: left;
+  color: #ffffff;
 }
 .cid-rWVSjZctot {
   padding-top: 120px;
@@ -1863,7 +1865,7 @@ body {
   padding-top: 90px;
   padding-bottom: 30px;
   background-color: #cc2952;
-  background: linear-gradient(45deg, #cc2952, #0079a2);
+  background: linear-gradient(45deg, #cc2952, #158edb);
 }
 @media (min-width: 992px) {
   .cid-rWUD6uv6og .mbr-figure {
@@ -1884,7 +1886,7 @@ body {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #191654;
-  background: linear-gradient(45deg, #191654, #0079a2);
+  background: linear-gradient(45deg, #191654, #158edb);
 }
 .cid-rWUCXz8ceE .media-container-row {
   flex-direction: row-reverse;
