@@ -1,0 +1,1560 @@
+.c2dbody {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.div-block {
+  display: inline-block;
+}
+
+.link-block {
+  color: #222;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.menu-button {
+  z-index: auto;
+  padding: 0px;
+  color: #222;
+}
+
+.menu-button.w--open {
+  z-index: 1;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.icon {
+  color: #222;
+  font-size: 42px;
+}
+
+.nav-menu {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #0f7699;
+  color: #fff;
+  font-size: 54px;
+  line-height: 42px;
+  text-align: right;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.nav-link.w--current {
+  color: #fff;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.nav-link-2 {
+  color: #fff;
+}
+
+.div-block-2 {
+  position: relative;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: right;
+}
+
+.link-block-2 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 20px;
+  bottom: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.image {
+  color: #fff;
+}
+
+.heading {
+  color: #222;
+}
+
+.section {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.column {
+  background-color: transparent;
+}
+
+.column-2 {
+  background-color: transparent;
+}
+
+.website-block {
+  position: relative;
+  min-height: 600px;
+  background-color: #222;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0f7699), to(#1a194f));
+  background-image: linear-gradient(180deg, #0f7699, #1a194f);
+}
+
+.div-block-4 {
+  min-height: 700px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cc2952), to(#158edb));
+  background-image: linear-gradient(180deg, #cc2952, #158edb);
+}
+
+.websites-link {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  opacity: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.websites-link:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 118, 153, 0)), to(rgba(26, 25, 79, 0.7)));
+  background-image: linear-gradient(180deg, rgba(15, 118, 153, 0), rgba(26, 25, 79, 0.7));
+}
+
+.websites-block-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-image: url('../images/websites-1980x1114.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 0.15;
+}
+
+.heading-2 {
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 64px;
+  line-height: 56px;
+  text-transform: none;
+}
+
+.div-block-6 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-block {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #ff3361;
+}
+
+.graphic-block-gradient {
+  position: relative;
+  min-height: 600px;
+  background-color: #222;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cc2952), to(#1a194f));
+  background-image: linear-gradient(180deg, #cc2952, #1a194f);
+}
+
+.graphics-block-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-image: url('../images/graphic-design-1014x1014.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 0.15;
+}
+
+.graphic-link {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  opacity: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.graphic-link:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 51, 97, 0)), to(rgba(26, 25, 79, 0.7)));
+  background-image: linear-gradient(180deg, rgba(255, 51, 97, 0), rgba(26, 25, 79, 0.7));
+}
+
+.columns {
+  margin-top: 20px;
+}
+
+.support-block {
+  position: relative;
+  min-height: 600px;
+  background-color: #222;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#16a085), to(#1a194f));
+  background-image: linear-gradient(180deg, #16a085, #1a194f);
+}
+
+.store-block {
+  position: relative;
+  min-height: 600px;
+  background-color: #222;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f09819), to(#1a194f));
+  background-image: linear-gradient(180deg, #f09819, #1a194f);
+}
+
+.store-link {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  opacity: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.store-link:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 152, 25, 0)), to(rgba(26, 25, 79, 0.7)));
+  background-image: linear-gradient(180deg, rgba(240, 152, 25, 0), rgba(26, 25, 79, 0.7));
+}
+
+.support-link {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  opacity: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.support-link:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 160, 133, 0)), to(rgba(26, 25, 79, 0.7)));
+  background-image: linear-gradient(180deg, rgba(22, 160, 133, 0), rgba(26, 25, 79, 0.7));
+}
+
+.support-block-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-image: url('../images/design-planning-1800x1220.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 0.15;
+}
+
+.shop-block-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-image: url('../images/free-image-resizer-cropper.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 0.15;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #1a194f;
+  color: #fff;
+  text-align: center;
+}
+
+.heading-3 {
+  font-weight: 400;
+}
+
+.facebook-link {
+  margin-right: 10px;
+}
+
+.twitter-link {
+  margin-right: 10px;
+}
+
+.div-block-7 {
+  margin-top: 20px;
+}
+
+.testimonial-section {
+  min-height: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 60px 100px;
+}
+
+.contact-section {
+  min-height: auto;
+  margin-top: -2px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #cc2952;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/contact-bg.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/contact-bg.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+  color: #fff;
+}
+
+.heading-4 {
+  margin-top: 0px;
+  color: #1a194f;
+  font-size: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.testimonial-block {
+  width: 300px;
+  height: 300px;
+  min-height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #158edb;
+  border-radius: 300px;
+  background-color: #0f7699;
+  box-shadow: 7px 7px 15px 3px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+}
+
+.paragraph-2 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.heading-5 {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.paragraph-3 {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.div-block-8 {
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.testimonials-title-block {
+  margin-bottom: 60px;
+}
+
+.div-block-9 {
+  margin-top: 0px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #1a194f;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.field-label {
+  text-align: left;
+}
+
+.field-label-2 {
+  text-align: left;
+}
+
+.field-label-3 {
+  text-align: left;
+}
+
+.textarea {
+  min-height: 200px;
+}
+
+.field-label-4 {
+  text-align: left;
+}
+
+.text-field {
+  margin-bottom: 20px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.intro {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.heading-6 {
+  margin-bottom: 0px;
+  color: #1a194f;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.paragraph-4 {
+  display: block;
+  margin-top: 40px;
+  color: #1a194f;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.container-2 {
+  margin-top: 40px;
+}
+
+.slider {
+  min-height: 700px;
+  background-color: #fff;
+}
+
+.div-block-10 {
+  height: 100%;
+  margin-right: 60px;
+  margin-left: 60px;
+  background-color: #fff;
+  background-image: url('../images/Personal-Pest.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+.image-2 {
+  height: 100%;
+  text-align: center;
+}
+
+.left-arrow {
+  width: 42px;
+  background-color: transparent;
+  color: #1a194f;
+}
+
+.right-arrow {
+  width: 42px;
+  background-color: transparent;
+  color: #1a194f;
+}
+
+.flush-edge {
+  position: relative;
+  height: auto;
+  margin: 60px 10%;
+}
+
+.slide-2-block {
+  height: 100%;
+  margin-right: 60px;
+  margin-left: 60px;
+  background-color: #fff;
+  background-image: url('../images/Peak-Energy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+.utility-page-wrap {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.utility-page-content {
+  display: block;
+  width: 260px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.slide-3-block {
+  height: 100%;
+  margin-right: 60px;
+  margin-left: 60px;
+  background-color: #fff;
+  background-image: url('../images/my-dallas-ideas.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+.grid {
+  grid-template-areas: "."
+    "Area";
+}
+
+.gallery-block-1 {
+  height: 100%;
+  background-image: url('../images/Personal-Pest_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.columns-2 {
+  height: 600px;
+}
+
+.column-4 {
+  height: 100%;
+}
+
+.column-5 {
+  height: 100%;
+}
+
+.gallery-block-2 {
+  height: 49%;
+  margin-bottom: 2%;
+  background-image: url('../images/my-dallas-ideas_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.gallery-block-3 {
+  height: 49%;
+  background-image: url('../images/Peak-Energy_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.iconsectionweb {
+  position: static;
+  display: block;
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  clear: none;
+  background-color: transparent;
+}
+
+.div-block-12 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 50%;
+  height: auto;
+  max-height: none;
+  min-height: 700px;
+  float: none;
+  clear: none;
+  background-image: url('../images/mitfine-preview-800x1086.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.image-3 {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  max-width: none;
+}
+
+.div-block-13 {
+  position: static;
+  top: 220px;
+  z-index: 2;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  min-height: auto;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  clear: none;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.heading-7 {
+  color: #1a194f;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.heading-8 {
+  color: #1a194f;
+  font-size: 45px;
+  line-height: 52px;
+}
+
+.paragraph-5 {
+  margin-top: 20px;
+  color: #1a194f;
+  line-height: 26px;
+}
+
+.flush-edge-div-content {
+  position: static;
+  overflow: visible;
+  height: auto;
+  margin: 0px 10% 0px 15%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  clear: none;
+}
+
+.div-block-14 {
+  position: static;
+  display: inline-block;
+  width: 40%;
+  float: none;
+  text-align: left;
+}
+
+.heading-4-copy {
+  margin-top: 0px;
+  color: #fff;
+  font-size: 45px;
+  line-height: 45px;
+  text-align: left;
+}
+
+.column-6 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.image-4 {
+  max-width: 60%;
+}
+
+.column-7 {
+  text-align: center;
+}
+
+.column-8 {
+  text-align: center;
+}
+
+.column-9 {
+  text-align: center;
+}
+
+.heading-9 {
+  margin-top: 0px;
+  color: #1a194f;
+}
+
+.heading-10 {
+  margin-top: 0px;
+  color: #1a194f;
+}
+
+.heading-11 {
+  margin-top: 0px;
+  color: #1a194f;
+}
+
+.heading-12 {
+  margin-top: 0px;
+  color: #1a194f;
+}
+
+.pricing-section {
+  position: static;
+  overflow: visible;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  clear: none;
+  background-color: #e3eeff;
+  color: #fff;
+  text-align: center;
+}
+
+.heading-13 {
+  margin-top: 0px;
+  padding-top: 20px;
+  color: #1a194f;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: left;
+}
+
+.list-item {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  border-top: 0px solid #0f7699;
+  color: #1a194f;
+  font-weight: 500;
+  text-align: left;
+}
+
+.div-block-15 {
+  margin-top: 40px;
+}
+
+.paragraph-6 {
+  margin-top: 20px;
+  color: #1a194f;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.div-block-16 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  margin-top: 40px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #ff3361;
+}
+
+.support-section {
+  min-height: 660px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  background-image: url('../images/uxui-design-bg-crop.jpg');
+  background-position: 100% 0%;
+  background-size: auto 670px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.bold-text {
+  color: #1a194f;
+}
+
+.heading-14 {
+  color: #1a194f;
+  font-size: 45px;
+  line-height: 52px;
+}
+
+.div-block-17 {
+  width: 50%;
+  padding-bottom: 60px;
+}
+
+.paragraph-support-subtitle {
+  color: #1a194f;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.heading-15 {
+  color: #1a194f;
+  text-align: left;
+}
+
+.paragraph-support {
+  margin-top: 20px;
+  color: #1a194f;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.iconsection {
+  position: static;
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  clear: none;
+  background-color: #e3eeff;
+}
+
+.websitetile {
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.gallerytile {
+  height: 270px;
+  margin-bottom: 20px;
+  background-image: url('../images/Personal-Pest_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallerytile.gallerytile2 {
+  background-image: url('../images/my-dallas-ideas_1.jpg');
+}
+
+.gallerytile.gallerytile3 {
+  background-image: url('../images/Peak-Energy_1.jpg');
+}
+
+.gallerytile.gallerytile4 {
+  background-image: url('../images/mitfine-preview-800x1086.jpg');
+}
+
+.gallerytile.designgallerytile4 {
+  background-image: url('../images/mockup-of-a-squared-book-placed-on-a-customizable-surface-336372-854x569.png');
+}
+
+.gallerytile.designgallerytile5 {
+  background-image: url('../images/mockup-of-three-posters-side-by-side-1249-el-1004x753.png');
+}
+
+.headinggallerytile {
+  color: #1a194f;
+  text-align: left;
+}
+
+.columns-3 {
+  margin-top: 20px;
+}
+
+.gallerytilesection {
+  position: static;
+  display: none;
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  clear: none;
+  background-color: transparent;
+}
+
+.column-10 {
+  text-align: center;
+}
+
+.column-11 {
+  text-align: center;
+}
+
+.cmssection {
+  position: static;
+  display: block;
+  overflow: visible;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  clear: none;
+  background-color: transparent;
+}
+
+.cms-section {
+  position: static;
+  overflow: visible;
+  height: auto;
+  margin: 0px 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  clear: none;
+}
+
+.iconwebdiv {
+  position: static;
+  overflow: visible;
+  height: auto;
+  margin: 0px 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  clear: none;
+}
+
+.websitepricingdiv {
+  position: static;
+  overflow: visible;
+  height: auto;
+  margin: 0px 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  clear: none;
+}
+
+.designgallerytile {
+  height: 100%;
+  background-image: url('../images/mockup-of-a-bunch-of-business-cards-with-customizable-background-1551-el-1092x910.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.designgallerytile2 {
+  height: 49%;
+  margin-bottom: 2%;
+  background-image: url('../images/mockup-of-three-business-cards-on-a-solid-color-surface-21900-620x930.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.designgallerytile3 {
+  height: 49%;
+  background-image: url('../images/minimal-heather-t-shirt-mockup-with-a-colored-background-2365-el1-708x1031.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.designgallerytile6 {
+  height: 49%;
+  margin-bottom: 2%;
+  background-image: url('../images/yard-sign-mockup-1086x614.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.designgallerytile8 {
+  height: 100%;
+  background-image: url('../images/mockup-featuring-a-roll-up-banner-standing-against-a-plain-background-915-el-626x1084.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.designgallerytile7 {
+  height: 49%;
+  background-image: url('../images/mockup-of-a-squared-book-placed-on-a-customizable-surface-336371-854x569.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.image-5 {
+  max-height: none;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.column-12 {
+  text-align: center;
+}
+
+.button-2 {
+  margin-top: 40px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  background-color: #ff3361;
+}
+
+.paragraph-7 {
+  margin-top: 40px;
+  line-height: 32px;
+}
+
+.supportdiv {
+  width: 50%;
+  padding-bottom: 60px;
+  text-align: left;
+}
+
+.div-block-16-copy {
+  margin-top: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .website-block {
+    min-height: 400px;
+  }
+
+  .div-block-4 {
+    min-height: 500px;
+  }
+
+  .heading-2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .text-block {
+    font-size: 16px;
+  }
+
+  .graphic-block-gradient {
+    min-height: 400px;
+  }
+
+  .support-block {
+    min-height: 400px;
+  }
+
+  .store-block {
+    min-height: 400px;
+  }
+
+  .testimonial-section {
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+  }
+
+  .testimonial-block {
+    width: 225px;
+    height: 225px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .paragraph-2 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .heading-5 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+
+  .paragraph-3 {
+    font-size: 12px;
+  }
+
+  .intro {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .slider {
+    min-height: 600px;
+  }
+
+  .flush-edge {
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .iconsectionweb {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .flush-edge-div-content {
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .support-section {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .iconsection {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .gallerytilesection {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .cmssection {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .cms-section {
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .iconwebdiv {
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .websitepricingdiv {
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .website-block {
+    min-height: 300px;
+  }
+
+  .div-block-6 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .graphic-block-gradient {
+    min-height: 300px;
+  }
+
+  .support-block {
+    min-height: 300px;
+  }
+
+  .store-block {
+    min-height: 300px;
+  }
+
+  .testimonial-section {
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+  }
+
+  .contact-section {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .testimonial-block {
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .heading-6 {
+    font-size: 34px;
+    line-height: 48px;
+  }
+
+  .paragraph-4 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .slider {
+    min-height: 200px;
+  }
+
+  .flush-edge {
+    height: auto;
+  }
+
+  .gallery-block-1 {
+    width: auto;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+
+  .columns-2 {
+    height: auto;
+  }
+
+  .column-4 {
+    height: auto;
+  }
+
+  .column-5 {
+    height: auto;
+  }
+
+  .gallery-block-2 {
+    width: auto;
+    height: 400px;
+  }
+
+  .gallery-block-3 {
+    width: auto;
+    height: 400px;
+  }
+
+  .flush-edge-div-content {
+    height: auto;
+  }
+
+  .paragraph-support-subtitle {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .cms-section {
+    height: auto;
+  }
+
+  .iconwebdiv {
+    height: auto;
+  }
+
+  .websitepricingdiv {
+    height: auto;
+  }
+
+  .designgallerytile {
+    width: auto;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+
+  .designgallerytile2 {
+    width: auto;
+    height: 400px;
+  }
+
+  .designgallerytile3 {
+    width: auto;
+    height: 400px;
+  }
+
+  .designgallerytile6 {
+    width: auto;
+    height: 400px;
+  }
+
+  .designgallerytile8 {
+    width: auto;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+
+  .designgallerytile7 {
+    width: auto;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+
+  .nav-link {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  .nav-link.w--current {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  .div-block-2 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .column-2 {
+    margin-top: 20px;
+  }
+
+  .website-block {
+    min-height: 300px;
+  }
+
+  .div-block-4 {
+    min-height: 300px;
+  }
+
+  .graphic-block-gradient {
+    min-height: 300px;
+  }
+
+  .support-block {
+    min-height: 300px;
+  }
+
+  .store-block {
+    min-height: 300px;
+  }
+
+  .testimonial-section {
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+  }
+
+  .contact-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .heading-4 {
+    font-size: 34px;
+  }
+
+  .intro {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .heading-6 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  .paragraph-4 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .slider {
+    max-height: 170px;
+    min-height: auto;
+    background-color: transparent;
+  }
+
+  .div-block-10 {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .left-arrow {
+    width: 42px;
+    background-color: transparent;
+  }
+
+  .right-arrow {
+    width: 42px;
+    background-color: transparent;
+    text-align: right;
+  }
+
+  .flush-edge {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .icon-2 {
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 32px;
+  }
+
+  .icon-3 {
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 32px;
+    text-align: right;
+  }
+
+  .slide {
+    background-color: transparent;
+  }
+
+  .div-block-11 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .slide-2-block {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .slide-3-block {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .gallery-block-1 {
+    height: 300px;
+  }
+
+  .gallery-block-2 {
+    height: 300px;
+  }
+
+  .gallery-block-3 {
+    height: 300px;
+  }
+
+  .heading-7 {
+    font-size: 20px;
+  }
+
+  .heading-8 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .flush-edge-div-content {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .heading-4-copy {
+    font-size: 34px;
+  }
+
+  .heading-13 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .paragraph-support-subtitle {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .heading-15 {
+    font-size: 24px;
+  }
+
+  .cms-section {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .iconwebdiv {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .websitepricingdiv {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .designgallerytile {
+    height: 300px;
+  }
+
+  .designgallerytile2 {
+    height: 300px;
+  }
+
+  .designgallerytile3 {
+    height: 300px;
+  }
+
+  .designgallerytile6 {
+    height: 300px;
+  }
+
+  .designgallerytile8 {
+    height: 300px;
+  }
+
+  .designgallerytile7 {
+    height: 300px;
+  }
+}
+
