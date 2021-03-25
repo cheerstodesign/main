@@ -2,3 +2,9 @@
     top: -15px !important;
     padding: 10px;
 }
+.gallerytile.gallerytile4 {
+    background-image: url('../images/dch-themes-800x500.jpg');
+}
+.gallerytile.gallerytile5 {
+    background-image: url('../images/web-components-800x500.jpg');
+}
