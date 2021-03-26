@@ -909,6 +909,10 @@
   background-image: url('../images/mockup-of-three-posters-side-by-side-1249-el-1004x753.png');
 }
 
+.gallerytile.gallerytile5 {
+  background-image: url('../images/dch-themes-800x500.jpg');
+}
+
 .headinggallerytile {
   color: #1a194f;
   text-align: left;
@@ -1122,6 +1126,7 @@
   }
 
   .intro {
+    margin-bottom: 20px;
     padding-right: 60px;
     padding-left: 60px;
   }
@@ -1150,11 +1155,17 @@
   .support-section {
     padding-right: 60px;
     padding-left: 60px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.5)), to(hsla(0, 0%, 100%, 0.5))), url('../images/uxui-design-bg-crop.jpg');
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url('../images/uxui-design-bg-crop.jpg');
+    background-position: 0px 0px, 100% 0%;
+    background-size: auto, auto 670px;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
   }
 
   .iconsection {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .gallerytilesection {
@@ -1183,6 +1194,10 @@
     height: auto;
     margin-right: 30px;
     margin-left: 30px;
+  }
+
+  .supportdiv {
+    width: 100%;
   }
 }
 
@@ -1280,6 +1295,15 @@
 
   .flush-edge-div-content {
     height: auto;
+  }
+
+  .support-section {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.8)), to(hsla(0, 0%, 100%, 0.8))), url('../images/uxui-design-bg-crop.jpg');
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0.8)), url('../images/uxui-design-bg-crop.jpg');
+    background-position: 0px 0px, 100% 0%;
+    background-size: auto, auto 670px;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
   }
 
   .paragraph-support-subtitle {
@@ -1503,6 +1527,11 @@
   .heading-13 {
     font-size: 34px;
     line-height: 42px;
+  }
+
+  .support-section {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .paragraph-support-subtitle {
