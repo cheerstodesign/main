@@ -1543,6 +1543,11 @@
     font-size: 24px;
   }
 
+  .iconsection {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .cms-section {
     margin-right: 0px;
     margin-left: 0px;
