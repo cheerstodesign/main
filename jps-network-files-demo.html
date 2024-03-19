@@ -1,0 +1,455 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0 auto;
+            font-family: "Nunito Sans", sans-serif;
+        }
+        h1 {
+            font-size:2.25em;
+        }
+        .sec-logo {
+            margin:60px;
+            text-align: center;
+        }
+        .sec-logo img {
+            width:70%;
+            max-width: 400px;
+        }
+        .anchorbar {
+            width:100%;
+            background-color: #003E7E;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .anchorbar ul {
+            width:90%;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            align-items: center;
+            justify-content: center;
+        }
+        .anchorbar a {
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            padding:10px 12px;
+            background-color: rgba(255, 255, 255, 0);
+            margin: 0;
+        }
+        .anchorbar a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        .jps-net-accordions {
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 100px;
+            width:60%;
+        }
+         /* Style the buttons that are used to open and close the accordion panel */
+        .jps-net-accordion {
+            font-size: 24px;
+            font-weight: bold;
+          background-color: rgba(0, 125, 195, 0.3);
+          cursor: pointer;
+          padding: 10px 20px;
+          width: 100%;
+          text-align: left;
+          border: none;
+          outline: none;
+          transition: 0.4s;
+          margin:20px 0 0 0;
+        }
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .jps-net-accordion:hover {
+          background-color: rgba(0, 125, 195, 0.5);
+        }
+        .jps-net-accordion.active {
+            background-color: #83bd00;
+        }
+        /* Style the accordion panel. Note: hidden by default */
+        .jps-net-panel {
+          padding: 0 20px;
+          background-color: #fff;
+          border: 1px solid #83bd00;
+          display: none;
+          overflow: hidden;
+        }
+        .jps-net-panel ul {
+            list-style-type: none;
+        }
+        .jps-net-accordion:after {
+            font-family: 'Material Symbols Outlined';
+            content: "\e145"; /* Google Icon plus sign */
+            float: right;
+            font-weight: normal;
+        }
+
+        .jps-net-accordion.active:after {
+            content: "\e15b"; /* Google Icon minus sign */
+        }
+        div.jps-net-accordion {
+            height:20px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <section class="sec-logo">
+        <a href="jps-network-files-demo.html"><img src="https://www.jpshealthnet.org/themes/jpshealth/logo.svg"></a>
+    </section>
+    <section>
+        <div class="anchorbar">
+            <ul>
+                <li><a href="#bar-a">A</a></li>
+                <li><a href="#bar-b">B</a></li>
+                <li><a href="#bar-c">C</a></li>
+                <li><a href="#bar-d">D</a></li>
+                <li><a href="#bar-e">E</a></li>
+                <li><a href="#bar-f">F</a></li>
+                <li><a href="#bar-g">G</a></li>
+                <li><a href="#bar-h">H</a></li>
+                <li><a href="#bar-i">I</a></li>
+                <li><a href="#bar-j">J</a></li>
+                <li><a href="#bar-k">K</a></li>
+                <li><a href="#bar-l">L</a></li>
+                <li><a href="#bar-m">M</a></li>
+                <li><a href="#bar-n">N</a></li>
+                <li><a href="#bar-o">O</a></li>
+                <li><a href="#bar-p">P</a></li>
+                <li><a href="#bar-q">Q</a></li>
+                <li><a href="#bar-r">R</a></li>
+                <li><a href="#bar-s">S</a></li>
+                <li><a href="#bar-t">T</a></li>
+                <li><a href="#bar-u">U</a></li>
+                <li><a href="#bar-v">V</a></li>
+                <li><a href="#bar-w">W</a></li>
+                <li><a href="#bar-x">X</a></li>
+                <li><a href="#bar-y">Y</a></li>
+                <li><a href="#bar-z">Z</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="jps-net-accordions">
+        <div id="bar-a">
+            <button class="jps-net-accordion">A</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+                  <li>
+                      File Name
+                  </li>
+                  <li>
+                      File Name
+                  </li>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-b">
+            <button class="jps-net-accordion">B</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+                  <li>
+                      File Name
+                  </li>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-c">
+            <button class="jps-net-accordion">C</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-d">
+            <button class="jps-net-accordion">D</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-e">
+            <button class="jps-net-accordion">E</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-f">
+            <button class="jps-net-accordion">F</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-g">
+            <button class="jps-net-accordion">G</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-h">
+            <button class="jps-net-accordion">H</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-i">
+            <button class="jps-net-accordion">I</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-j">
+            <button class="jps-net-accordion">J</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-k">
+            <button class="jps-net-accordion">K</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-l">
+            <button class="jps-net-accordion">L</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-m">
+            <button class="jps-net-accordion">M</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-n">
+            <button class="jps-net-accordion">N</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-o">
+            <button class="jps-net-accordion">O</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-p">
+            <button class="jps-net-accordion">P</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-c">
+            <button class="jps-net-accordion">Q</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-r">
+            <button class="jps-net-accordion">R</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-s">
+            <button class="jps-net-accordion">S</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-t">
+            <button class="jps-net-accordion">T</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-u">
+            <button class="jps-net-accordion">U</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-v">
+            <button class="jps-net-accordion">V</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-w">
+            <button class="jps-net-accordion">W</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-x">
+            <button class="jps-net-accordion">X</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-y">
+            <button class="jps-net-accordion">Y</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div id="bar-z">
+            <button class="jps-net-accordion">Z</button>
+            <div class="jps-net-panel">
+              <ul>
+                  <li>
+                      File Name
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+
+        var acc = document.getElementsByClassName("jps-net-accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+
+        jQuery(document).ready(function($) {
+            $('.jps-net-accordion.active').click(function(e) {
+                
+                var $this = $(this);
+                var thisHref = $this.attr('href');
+                var accordion = $(thisHref).find('.jps-net-accordion');
+
+                if ( accordion.length && $(thisHref).hasClass('active') ) {
+                    e.preventDefault();
+
+                    accordion.trigger('click');
+                }
+
+            });
+        });
+            
+    </script>
+</body>
